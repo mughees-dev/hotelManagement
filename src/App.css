@@ -1,0 +1,61 @@
+.navbar_custom{
+  background-color:  black;
+  height: 4rem;
+
+}
+.slider_custom{
+  height: 92vh !important;
+  width: 100% !important;
+  opacity: .8;
+}
+
+.details-container{
+  margin-top: 3rem;
+}
+
+.details-container img{
+  height: 28rem;
+}
+
+.details-container li{
+  list-style: none;
+}
+
+.admin-container{
+  border: 2px solid rgb(0, 153, 255);
+  box-shadow: 1px 1px 20px rgb(95, 182, 240);
+}
+
+.text{
+  color: rgb(0, 153, 255);
+  font-size: 42px;
+}
+
+.admin-button{
+  background-color: rgb(0, 153, 255);
+  font-size: 25px;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.card_custom{
+  height: 25rem;
+}
+.cardlayout{
+  display: flex;
+}
+
+@media screen and (max-width:768px){
+  .cardlayout{
+    display: block;
+  }
+
+  .card_custom{
+    height: auto;
+  }
+
+  .btns{
+    display: none;
+  }
+}
